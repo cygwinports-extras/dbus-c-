@@ -1,0 +1,3 @@
+category: Libs
+sdesc: "C++ bindings for D-Bus API (sources)"
+ldesc: "dbus-c++ attempts to provide a C++ API for D-Bus."

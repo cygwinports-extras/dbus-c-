@@ -1,0 +1,5 @@
+category: Libs
+requires: libdbus1_3 libgcc1 libglib2.0_0 libstdc++6
+external-source: dbus-c++
+sdesc: "C++ bindings for D-Bus API (runtime)"
+ldesc: "dbus-c++ attempts to provide a C++ API for D-Bus."

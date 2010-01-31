@@ -1,0 +1,13 @@
+There is a duplicate listing for debug.h. This breaks with Automake 
+1.11, which install(1)s all files in the same target at once.
+
+--- origsrc/dbus-c++/src/Makefile.am	2010-01-31 03:42:28.000000000 -0600
++++ src/dbus-c++/src/Makefile.am	2010-01-31 03:50:22.427931100 -0600
+@@ -30,7 +30,6 @@ HEADER_FILES = \
+ 	$(HEADER_DIR)/object.h \
+ 	$(HEADER_DIR)/pendingcall.h \
+ 	$(HEADER_DIR)/server.h \
+-	$(HEADER_DIR)/debug.h \
+ 	$(HEADER_DIR)/util.h \
+ 	$(HEADER_DIR)/refptr_impl.h \
+ 	$(HEADER_DIR)/introspection.h \
